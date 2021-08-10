@@ -7,9 +7,9 @@ namespace Team2Application.Models
 {
     public class LibraryResource
     {
-        public string Name { get; set; }
-
         public int Id { get; set; }
+
+        public string Name { get; set; }
 
         public string Recommandation { get; set; }
 

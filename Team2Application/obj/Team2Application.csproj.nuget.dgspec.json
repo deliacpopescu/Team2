@@ -1,26 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {}
+    "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {
+    "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
+        "projectUniqueName": "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj",
         "projectName": "Team2Application",
-        "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
-        "packagesPath": "C:\\Users\\RaresTant\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\obj\\",
+        "projectPath": "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj",
+        "packagesPath": "C:\\Users\\TeonaTanase\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Team2\\Team2Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\RaresTant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TeonaTanase\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

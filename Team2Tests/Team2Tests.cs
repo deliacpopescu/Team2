@@ -11,8 +11,8 @@ namespace Team2Tests
         public void GettingAgeTest()
         {
             // Assume
-
-            Intern intern = new Intern(5, "Rares", new DateTime(2015, 12, 25), "email@yahoo.com");
+            DateTime birthdate = new DateTime(2015, 12, 25);
+            Intern intern = new Intern(5,"Rares",birthdate,"email@yahoo.com");
 
             // Act
 

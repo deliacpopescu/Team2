@@ -10266,19 +10266,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RaresTant\\.nuget\\packages\\": {}
+    "C:\\Users\\TeonaTanase\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj",
+      "projectUniqueName": "C:\\Projects\\Team2\\Team2Tests\\Team2Tests.csproj",
       "projectName": "Team2Tests",
-      "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj",
-      "packagesPath": "C:\\Users\\RaresTant\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\Team2\\Team2\\Team2Tests\\obj\\",
+      "projectPath": "C:\\Projects\\Team2\\Team2Tests\\Team2Tests.csproj",
+      "packagesPath": "C:\\Users\\TeonaTanase\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Team2\\Team2Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\RaresTant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TeonaTanase\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10292,8 +10292,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {
-              "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj"
+            "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj": {
+              "projectPath": "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj"
             }
           }
         }
