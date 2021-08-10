@@ -19,7 +19,6 @@ namespace Team2Application.Models
             EmailAddress = emailAddress;
         }
 
-
         public string Name { get; set; }
 
         public int Id { get; set; }
@@ -36,5 +35,6 @@ namespace Team2Application.Models
             if (DateTime.Now.DayOfYear < dateOfBirth.DayOfYear) age = age - 1;
             return age;
         }
+
     }
 }
