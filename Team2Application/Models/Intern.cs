@@ -23,7 +23,7 @@ namespace Team2Application.Models
 
         public string EmailAddress { get; set; }
 
-        public int CalculateAge()
+        public int GetAge()
 
         {
             DateTime dateOfBirth = this.Birthdate;
