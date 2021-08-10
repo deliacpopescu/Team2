@@ -1,0 +1,6 @@
+C:\Projects\Team2\Team2\Team2Tests\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Projects\Team2\Team2\Team2Tests\obj\Debug\net5.0\Team2Tests.csproj.AssemblyReference.cache
+C:\Projects\Team2\Team2\Team2Tests\obj\Debug\net5.0\Team2Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Team2\Team2\Team2Tests\obj\Debug\net5.0\Team2Tests.AssemblyInfoInputs.cache
+C:\Projects\Team2\Team2\Team2Tests\obj\Debug\net5.0\Team2Tests.AssemblyInfo.cs
+C:\Projects\Team2\Team2\Team2Tests\obj\Debug\net5.0\Team2Tests.csproj.CoreCompileInputs.cache
