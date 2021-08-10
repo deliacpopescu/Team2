@@ -7,6 +7,10 @@ namespace Team2Application.Models
 {
     public class Intern
     {
+        public Intern()
+        {
+        }
+
         public Intern(int id, string name,  DateTime birthdate, string emailAddress)
         {
             Name = name;
