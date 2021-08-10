@@ -252,3 +252,8 @@ C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\Skills\Del
 C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\Skills\Details.cshtml.g.cs
 C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\Skills\Edit.cshtml.g.cs
 C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\Skills\Index.cshtml.g.cs
+C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\LibraryResources\Create.cshtml.g.cs
+C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\LibraryResources\Delete.cshtml.g.cs
+C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\LibraryResources\Details.cshtml.g.cs
+C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\LibraryResources\Edit.cshtml.g.cs
+C:\Projects\Team2\Team2\Team2Application\obj\Debug\net5.0\Razor\Views\LibraryResources\Index.cshtml.g.cs
