@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Tests\\Team2Tests.csproj": {}
+    "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\Team2Application.csproj": {
+    "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\Team2Application.csproj",
+        "projectUniqueName": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
         "projectName": "Team2Application",
-        "projectPath": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\Team2Application.csproj",
-        "packagesPath": "C:\\Users\\GabrielNegreanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\obj\\",
+        "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
+        "packagesPath": "C:\\Users\\RaresTant\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GabrielNegreanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\RaresTant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -97,24 +91,18 @@
         }
       }
     },
-    "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Tests\\Team2Tests.csproj": {
+    "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Tests\\Team2Tests.csproj",
+        "projectUniqueName": "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj",
         "projectName": "Team2Tests",
-        "projectPath": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Tests\\Team2Tests.csproj",
-        "packagesPath": "C:\\Users\\GabrielNegreanu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Tests\\obj\\",
+        "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Tests\\Team2Tests.csproj",
+        "packagesPath": "C:\\Users\\RaresTant\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Team2\\Team2\\Team2Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\GabrielNegreanu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\RaresTant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -127,8 +115,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\Team2Application.csproj": {
-                "projectPath": "C:\\Users\\GabrielNegreanu\\Desktop\\Backend-Borys-Lebeda\\Projects\\Team2NewApp\\Team2Application\\Team2Application.csproj"
+              "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {
+                "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj"
               }
             }
           }
