@@ -14,5 +14,15 @@ namespace Team2Application.Models
         public DateTime Birthdate { get; set; }
 
         public string EmailAddress { get; set; }
+
+        public int CalculateAge()
+
+        {
+            DateTime dateOfBirth = this.Birthdate;
+            int age = 0;
+            age = DateTime.Now.Year - dateOfBirth.Year;
+            if (DateTime.Now.DayOfYear < dateOfBirth.DayOfYear) age = age - 1;
+            return age;
+        }
     }
 }
