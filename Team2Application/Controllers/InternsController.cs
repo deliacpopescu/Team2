@@ -145,6 +145,11 @@ namespace Team2Application.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public int GetAge(Intern intern)
+        {
+            return intern.GetAge();
+        }
+
         private bool InternExists(int id)
         {
             return _context.Intern.Any(e => e.Id == id);

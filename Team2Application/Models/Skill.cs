@@ -15,10 +15,11 @@ namespace Team2Application.Models
 
         public string SkillMatrixUrl { get; set; }
 
+        public List<LibraryResource> LibraryResources { get; set; }
+
         public List<LibraryResource> GetResources()
         {
-            List<LibraryResource> libraryResourcesList=new List<LibraryResource>();
-            return libraryResourcesList;
+            return LibraryResources;
         }
     }
 }

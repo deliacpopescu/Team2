@@ -14,5 +14,15 @@ namespace Team2Application.Models
         public string Recommandation { get; set; }
 
         public string Url { get; set; }
+
+        public void Play()
+        {
+            /*Starts playing video*/
+        }
+
+        public void RetriveInformation()
+        {
+            /*Retrievs information*/
+        }
     }
 }

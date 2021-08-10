@@ -20,6 +20,7 @@ namespace Team2Application.Models
             ListOfSkills = listofskills;
         }
 
+
         public string Name { get; set; }
 
         public int Id { get; set; }
@@ -33,7 +34,6 @@ namespace Team2Application.Models
 
 
         public int GetAge()
-
         {
             DateTime dateOfBirth = this.Birthdate;
             int age = 0;
