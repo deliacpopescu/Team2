@@ -10,8 +10,8 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Name)
@@ -38,8 +38,12 @@
                 @Html.DisplayFor(modelItem => item.EmailAddress)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ListOfSkills)
+            </td>
+            <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Skills" asp-route-id="@item.Id">Skills</a>  |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
         </tr>

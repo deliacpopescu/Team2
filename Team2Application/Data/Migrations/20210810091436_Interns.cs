@@ -15,11 +15,13 @@ namespace Team2Application.Data.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Birthdate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    EmailAddress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SkillId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Intern", x => x.Id);
+                    
                 });
 
             migrationBuilder.CreateTable(
