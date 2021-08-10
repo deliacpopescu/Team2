@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Team2Application\\Team2Application\\Team2Application.csproj": {}
+    "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Team2Application\\Team2Application\\Team2Application.csproj": {
+    "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Team2Application\\Team2Application\\Team2Application.csproj",
+        "projectUniqueName": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
         "projectName": "Team2Application",
-        "projectPath": "C:\\Projects\\Team2Application\\Team2Application\\Team2Application.csproj",
+        "projectPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\Team2Application.csproj",
         "packagesPath": "C:\\Users\\RaresTant\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Team2Application\\Team2Application\\obj\\",
+        "outputPath": "C:\\Projects\\Team2\\Team2\\Team2Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RaresTant\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
