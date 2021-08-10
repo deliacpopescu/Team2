@@ -10,8 +10,8 @@ using Team2Application.Data;
 namespace Team2Application.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210810085342_Skill")]
-    partial class Skill
+    [Migration("20210810203503_LibraryResource")]
+    partial class LibraryResource
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -221,6 +221,79 @@ namespace Team2Application.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("Team2Application.Models.Intern", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Birthdate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmailAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Intern");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.LibraryResource", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Recommandation")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("SkillId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Url")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SkillId");
+
+                    b.ToTable("LibraryResource");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Skill", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("InternId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SkillMatrixUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("InternId");
+
+                    b.ToTable("Skill");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -270,6 +343,30 @@ namespace Team2Application.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Team2Application.Models.LibraryResource", b =>
+                {
+                    b.HasOne("Team2Application.Models.Skill", null)
+                        .WithMany("LibraryResources")
+                        .HasForeignKey("SkillId");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Skill", b =>
+                {
+                    b.HasOne("Team2Application.Models.Intern", null)
+                        .WithMany("ListOfSkills")
+                        .HasForeignKey("InternId");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Intern", b =>
+                {
+                    b.Navigation("ListOfSkills");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Skill", b =>
+                {
+                    b.Navigation("LibraryResources");
                 });
 #pragma warning restore 612, 618
         }

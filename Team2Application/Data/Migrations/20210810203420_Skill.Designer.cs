@@ -10,8 +10,8 @@ using Team2Application.Data;
 namespace Team2Application.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210810091436_Interns")]
-    partial class Interns
+    [Migration("20210810203420_Skill")]
+    partial class Skill
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -255,10 +255,15 @@ namespace Team2Application.Data.Migrations
                     b.Property<string>("Recommandation")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("SkillId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Url")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("SkillId");
 
                     b.ToTable("LibraryResource");
                 });
@@ -273,6 +278,9 @@ namespace Team2Application.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("InternId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -280,6 +288,8 @@ namespace Team2Application.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("InternId");
 
                     b.ToTable("Skill");
                 });
@@ -333,6 +343,30 @@ namespace Team2Application.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Team2Application.Models.LibraryResource", b =>
+                {
+                    b.HasOne("Team2Application.Models.Skill", null)
+                        .WithMany("LibraryResources")
+                        .HasForeignKey("SkillId");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Skill", b =>
+                {
+                    b.HasOne("Team2Application.Models.Intern", null)
+                        .WithMany("ListOfSkills")
+                        .HasForeignKey("InternId");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Intern", b =>
+                {
+                    b.Navigation("ListOfSkills");
+                });
+
+            modelBuilder.Entity("Team2Application.Models.Skill", b =>
+                {
+                    b.Navigation("LibraryResources");
                 });
 #pragma warning restore 612, 618
         }
