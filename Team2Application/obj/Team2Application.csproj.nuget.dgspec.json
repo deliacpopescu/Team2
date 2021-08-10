@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj": {}
+    "C:\\Users\\TeonaTanase\\source\\repos\\Team2\\Team2Application\\Team2Application.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj": {
+    "C:\\Users\\TeonaTanase\\source\\repos\\Team2\\Team2Application\\Team2Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj",
+        "projectUniqueName": "C:\\Users\\TeonaTanase\\source\\repos\\Team2\\Team2Application\\Team2Application.csproj",
         "projectName": "Team2Application",
-        "projectPath": "C:\\Projects\\Team2\\Team2Application\\Team2Application.csproj",
+        "projectPath": "C:\\Users\\TeonaTanase\\source\\repos\\Team2\\Team2Application\\Team2Application.csproj",
         "packagesPath": "C:\\Users\\TeonaTanase\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\Team2\\Team2Application\\obj\\",
+        "outputPath": "C:\\Users\\TeonaTanase\\source\\repos\\Team2\\Team2Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TeonaTanase\\AppData\\Roaming\\NuGet\\NuGet.Config",

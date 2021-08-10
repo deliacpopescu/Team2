@@ -16,5 +16,10 @@ namespace Team2Application.Data
         public DbSet<Team2Application.Models.Intern> Intern { get; set; }
         public DbSet<Team2Application.Models.Skill> Skill { get; set; }
         public DbSet<Team2Application.Models.LibraryResource> LibraryResource { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Seed();
+        }
+        
     }
 }

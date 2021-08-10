@@ -7,6 +7,19 @@ namespace Team2Application.Models
 {
     public class Skill
     {
+        public Skill()
+        {
+        }
+
+        public Skill(int id, string name, string description, string skillMatrixUrl, List<LibraryResource> libraryResource)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            SkillMatrixUrl = skillMatrixUrl;
+            LibraryResource = libraryResource;
+        }
+
         public int Id { get; set; }
 
         public string Name { get; set; }
@@ -15,10 +28,11 @@ namespace Team2Application.Models
 
         public string SkillMatrixUrl { get; set; }
 
+        public List<LibraryResource> LibraryResource { get; set; }
+
         public List<LibraryResource> GetResources()
         {
-            List<LibraryResource> libraryResourcesList=new List<LibraryResource>();
-            return libraryResourcesList;
+            return LibraryResource;
         }
     }
 }

@@ -11,12 +11,14 @@ namespace Team2Application.Models
         {
         }
 
-        public Intern(int id, string name,  DateTime birthdate, string emailAddress)
+        public Intern(int id, string name,  DateTime birthdate, string emailAddress,List <Skill> skills)
         {
             Name = name;
             Id = id;
             Birthdate = birthdate;
             EmailAddress = emailAddress;
+            Skills = skills;
+
         }
         public int Id { get; set; }
         public string Name { get; set; }
@@ -33,6 +35,13 @@ namespace Team2Application.Models
             age = DateTime.Now.Year - dateOfBirth.Year;
             if (DateTime.Now.DayOfYear < dateOfBirth.DayOfYear) age = age - 1;
             return age;
+        }
+
+        public List<Skill> Skills { get; set; }
+
+        public List<Skill> GetSkills()
+        {
+            return Skills;
         }
     }
 }
